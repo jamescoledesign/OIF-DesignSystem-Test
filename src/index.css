@@ -11,3 +11,97 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+a.button-link {
+  text-decoration: none;
+}
+
+.primary-button {
+  height: 44px;
+  border: none;
+  background-color: #E61E24;
+  color: white;
+  padding: 0 15px;
+  border-radius: 22px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.primary-button:hover {
+  background-color: #9A0C28;
+}
+
+.button-text {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 12px;
+  margin-left: 6px;
+}
+
+.arrow-white {
+  width: 14px;
+  margin: 0 6px 0 12px;
+}
+
+.ghost-button {
+  height: 44px;
+  border: 2px solid #888888;
+  background-color: unset;
+  color: #888888;
+  padding: 0 15px;
+  border-radius: 22px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ghost-button:hover {
+  background-color: #888888;
+  color: white;
+}
+
+.arrow-gray {
+  width: 14px;
+  margin: 0 6px 0 12px;
+  filter: invert(53%) sepia(29%) saturate(0%) hue-rotate(207deg) brightness(95%) contrast(93%);
+}
+
+.ghost-button:hover .arrow-gray{
+  filter: unset;
+}
+
+.nav-button {
+  height: 28px;
+  border: none;
+  background-color: #E61E24;
+  color: white;
+  padding: 0 14px;
+  border-radius: 22px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 12px;
+}
+
+.nav-button:hover {
+  background-color: #9A0C28;
+}
+
+.top-button {
+  width: 44px;
+  height: 44px;
+  background-color: #121212;
+  border: none;
+  border-radius: 50%;
+  filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.3));
+}
+
+.top-button:hover {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.chevron-icon {
+  position: relative;
+  width: 15px;
+  top: -1px;
+}
