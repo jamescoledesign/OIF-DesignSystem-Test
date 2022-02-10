@@ -14,7 +14,7 @@ function App() {
           arrowClass="arrow-white"
           className="primary-button"
           label="Primary Button"
-        />
+        /> 
       </header>
     </div>
   );
