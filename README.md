@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Storybook Test
 
 A basic React app for testing Storybook.
 
